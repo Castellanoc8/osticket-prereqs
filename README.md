@@ -21,11 +21,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Also 1
-- Also 2
-- Also 3
-- Also 4
-- Also 5
+- Install/Enable IIS in Windows w/CGI
+- Install PHP Manager for IIS
+- Install the Rewrite Module
+- Download PHP 7.3.8 and unzip the contents into C:\PHP
+- Download and Install VC_redist.x86.exe
+- Download and Install MySQL 5.5.62
+- Install osTicket v1.15.8
 
 <h2>Installation Steps</h2>
 
