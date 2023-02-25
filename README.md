@@ -37,7 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/iIxElH6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In the first step i had to enable IIS in windows. I did that by going to the control panel and openeing programs, once opened I clicked on the "turn windows features on or off" tab. Once inside I expanded the Internet Information Service tab(IIS), then I expanded the World Wide Web Services tab and clicked on Application Development Features. Once I was inside the ADF tab i checked off CGI and clicked ok to allow the computer to apply the changes I had made.
+This entire process was done on a Virtual Machine I created through Azure. In the first step I had to enable IIS in windows. I did that by going to the control panel and openeing programs, once opened I clicked on the "turn windows features on or off" tab. Once inside I expanded the Internet Information Service tab(IIS), then I expanded the World Wide Web Services tab and clicked on Application Development Features. Once I was inside the ADF tab i checked off CGI and clicked ok to allow the computer to apply the changes I had made.
 </p>
 <br />
 
@@ -119,6 +119,6 @@ This is the last step before fianlly downloading and installing osTicket. I had 
 <img src="https://i.imgur.com/1HoB6xQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+This was the longest and final step in the process. First, I downloaded and installed osTicket, once installed I needed to extract and copy the "Upload" folder into the c:\inetpub\wwwroot folder. After I extracted all of the data from the upload folder, I renamed the upload folder to "osTicket". Next I had to go back inside IIS and go to the "sites" folder, then "Default Web Site", then "osTicket" and lastly clicked on browse *:80 tab which allowed me to bring up osTicket Installer. Then I had to go back into IIS to enable certain features to allow osTicket to work properly. After I enabled the features, I went into the ost.config.php file and had to assign permissions to allow everyone Full Control. Completing that part, I went back into osTicket Installer to finish the setup which included creating a help desk name, Admin User, and setting up the database settings. Lastly, I had to download one more program which was called "HeidiSQL". This program allows me to connect to the SQL database I downloaded earlier and once downloaded I created a new database called "osTicket". The last thing left to do was to finally install osTicket onto the Virtual Machine that I had been using throughout the entire process. 
 </p>
 <br />
