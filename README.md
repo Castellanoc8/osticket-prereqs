@@ -37,7 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/iIxElH6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-This entire process was done on a Virtual Machine I created through Azure. In the first step I had to enable IIS in windows. I did that by going to the control panel and openeing programs, once opened I clicked on the "turn windows features on or off" tab. Once inside I expanded the Internet Information Service tab(IIS), then I expanded the World Wide Web Services tab and clicked on Application Development Features. Once I was inside the ADF tab i checked off CGI and clicked ok to allow the computer to apply the changes I had made.
+This entire process was done on a Virtual Machine I created through Microsoft Azure. In the first step I had to enable IIS in windows. I did that by going to the control panel and openeing programs, once opened I clicked on the "turn windows features on or off" tab. Once inside I expanded the Internet Information Service tab(IIS), then I expanded the World Wide Web Services tab and clicked on Application Development Features. Once I was inside the ADF tab i checked off CGI and clicked ok to allow the computer to apply the changes I had made.
 </p>
 <br />
 
